@@ -1,0 +1,632 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A74DAB4218FC25C004FD4BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A74DAB3218FC25C004FD4BD /* AppDelegate.swift */; };
+		1A74DAB6218FC25C004FD4BD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A74DAB5218FC25C004FD4BD /* ViewController.swift */; };
+		1A74DAB9218FC25C004FD4BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A74DAB7218FC25C004FD4BD /* Main.storyboard */; };
+		1A74DABB218FC25D004FD4BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A74DABA218FC25D004FD4BD /* Assets.xcassets */; };
+		1A74DABE218FC25D004FD4BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A74DABC218FC25D004FD4BD /* LaunchScreen.storyboard */; };
+		1A74DAC3218FC25D004FD4BD /* MusicDecorator WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 1A74DAC2218FC25D004FD4BD /* MusicDecorator WatchKit App.app */; };
+		1A74DAC9218FC25D004FD4BD /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A74DAC7218FC25D004FD4BD /* Interface.storyboard */; };
+		1A74DACB218FC25E004FD4BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A74DACA218FC25E004FD4BD /* Assets.xcassets */; };
+		1A74DAD2218FC25E004FD4BD /* MusicDecorator WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1A74DAD1218FC25E004FD4BD /* MusicDecorator WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1A74DAD7218FC25E004FD4BD /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A74DAD6218FC25E004FD4BD /* InterfaceController.swift */; };
+		1A74DAD9218FC25E004FD4BD /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A74DAD8218FC25E004FD4BD /* ExtensionDelegate.swift */; };
+		1A74DADB218FC25E004FD4BD /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A74DADA218FC25E004FD4BD /* NotificationController.swift */; };
+		1A74DADD218FC25E004FD4BD /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A74DADC218FC25E004FD4BD /* ComplicationController.swift */; };
+		1A74DADF218FC25F004FD4BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A74DADE218FC25F004FD4BD /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1A74DAC4218FC25D004FD4BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A74DAA8218FC25B004FD4BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A74DAC1218FC25D004FD4BD;
+			remoteInfo = "MusicDecorator WatchKit App";
+		};
+		1A74DAD3218FC25E004FD4BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A74DAA8218FC25B004FD4BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A74DAD0218FC25E004FD4BD;
+			remoteInfo = "MusicDecorator WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1A74DAE7218FC25F004FD4BD /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				1A74DAD2218FC25E004FD4BD /* MusicDecorator WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A74DAEB218FC25F004FD4BD /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				1A74DAC3218FC25D004FD4BD /* MusicDecorator WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1A74DAB0218FC25C004FD4BD /* MusicDecorator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicDecorator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A74DAB3218FC25C004FD4BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1A74DAB5218FC25C004FD4BD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1A74DAB8218FC25C004FD4BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1A74DABA218FC25D004FD4BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1A74DABD218FC25D004FD4BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1A74DABF218FC25D004FD4BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A74DAC2218FC25D004FD4BD /* MusicDecorator WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MusicDecorator WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A74DAC8218FC25D004FD4BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		1A74DACA218FC25E004FD4BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1A74DACC218FC25E004FD4BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A74DAD1218FC25E004FD4BD /* MusicDecorator WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "MusicDecorator WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A74DAD6218FC25E004FD4BD /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		1A74DAD8218FC25E004FD4BD /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		1A74DADA218FC25E004FD4BD /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		1A74DADC218FC25E004FD4BD /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		1A74DADE218FC25F004FD4BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1A74DAE0218FC25F004FD4BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A74DAE1218FC25F004FD4BD /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A74DAAD218FC25C004FD4BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A74DACE218FC25E004FD4BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A74DAA7218FC25B004FD4BD = {
+			isa = PBXGroup;
+			children = (
+				1A74DAB2218FC25C004FD4BD /* MusicDecorator */,
+				1A74DAC6218FC25D004FD4BD /* MusicDecorator WatchKit App */,
+				1A74DAD5218FC25E004FD4BD /* MusicDecorator WatchKit Extension */,
+				1A74DAB1218FC25C004FD4BD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1A74DAB1218FC25C004FD4BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A74DAB0218FC25C004FD4BD /* MusicDecorator.app */,
+				1A74DAC2218FC25D004FD4BD /* MusicDecorator WatchKit App.app */,
+				1A74DAD1218FC25E004FD4BD /* MusicDecorator WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A74DAB2218FC25C004FD4BD /* MusicDecorator */ = {
+			isa = PBXGroup;
+			children = (
+				1A74DAB3218FC25C004FD4BD /* AppDelegate.swift */,
+				1A74DAB5218FC25C004FD4BD /* ViewController.swift */,
+				1A74DAB7218FC25C004FD4BD /* Main.storyboard */,
+				1A74DABA218FC25D004FD4BD /* Assets.xcassets */,
+				1A74DABC218FC25D004FD4BD /* LaunchScreen.storyboard */,
+				1A74DABF218FC25D004FD4BD /* Info.plist */,
+			);
+			path = MusicDecorator;
+			sourceTree = "<group>";
+		};
+		1A74DAC6218FC25D004FD4BD /* MusicDecorator WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				1A74DAC7218FC25D004FD4BD /* Interface.storyboard */,
+				1A74DACA218FC25E004FD4BD /* Assets.xcassets */,
+				1A74DACC218FC25E004FD4BD /* Info.plist */,
+			);
+			path = "MusicDecorator WatchKit App";
+			sourceTree = "<group>";
+		};
+		1A74DAD5218FC25E004FD4BD /* MusicDecorator WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				1A74DAD6218FC25E004FD4BD /* InterfaceController.swift */,
+				1A74DAD8218FC25E004FD4BD /* ExtensionDelegate.swift */,
+				1A74DADA218FC25E004FD4BD /* NotificationController.swift */,
+				1A74DADC218FC25E004FD4BD /* ComplicationController.swift */,
+				1A74DADE218FC25F004FD4BD /* Assets.xcassets */,
+				1A74DAE0218FC25F004FD4BD /* Info.plist */,
+				1A74DAE1218FC25F004FD4BD /* PushNotificationPayload.apns */,
+			);
+			path = "MusicDecorator WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A74DAAF218FC25C004FD4BD /* MusicDecorator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A74DAEC218FC25F004FD4BD /* Build configuration list for PBXNativeTarget "MusicDecorator" */;
+			buildPhases = (
+				1A74DAAC218FC25C004FD4BD /* Sources */,
+				1A74DAAD218FC25C004FD4BD /* Frameworks */,
+				1A74DAAE218FC25C004FD4BD /* Resources */,
+				1A74DAEB218FC25F004FD4BD /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A74DAC5218FC25D004FD4BD /* PBXTargetDependency */,
+			);
+			name = MusicDecorator;
+			productName = MusicDecorator;
+			productReference = 1A74DAB0218FC25C004FD4BD /* MusicDecorator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1A74DAC1218FC25D004FD4BD /* MusicDecorator WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A74DAE8218FC25F004FD4BD /* Build configuration list for PBXNativeTarget "MusicDecorator WatchKit App" */;
+			buildPhases = (
+				1A74DAC0218FC25D004FD4BD /* Resources */,
+				1A74DAE7218FC25F004FD4BD /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A74DAD4218FC25E004FD4BD /* PBXTargetDependency */,
+			);
+			name = "MusicDecorator WatchKit App";
+			productName = "MusicDecorator WatchKit App";
+			productReference = 1A74DAC2218FC25D004FD4BD /* MusicDecorator WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		1A74DAD0218FC25E004FD4BD /* MusicDecorator WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A74DAE4218FC25F004FD4BD /* Build configuration list for PBXNativeTarget "MusicDecorator WatchKit Extension" */;
+			buildPhases = (
+				1A74DACD218FC25E004FD4BD /* Sources */,
+				1A74DACE218FC25E004FD4BD /* Frameworks */,
+				1A74DACF218FC25E004FD4BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MusicDecorator WatchKit Extension";
+			productName = "MusicDecorator WatchKit Extension";
+			productReference = 1A74DAD1218FC25E004FD4BD /* MusicDecorator WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A74DAA8218FC25B004FD4BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Alcides Junior";
+				TargetAttributes = {
+					1A74DAAF218FC25C004FD4BD = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					1A74DAC1218FC25D004FD4BD = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					1A74DAD0218FC25E004FD4BD = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 1A74DAAB218FC25C004FD4BD /* Build configuration list for PBXProject "MusicDecorator" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1A74DAA7218FC25B004FD4BD;
+			productRefGroup = 1A74DAB1218FC25C004FD4BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A74DAAF218FC25C004FD4BD /* MusicDecorator */,
+				1A74DAC1218FC25D004FD4BD /* MusicDecorator WatchKit App */,
+				1A74DAD0218FC25E004FD4BD /* MusicDecorator WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A74DAAE218FC25C004FD4BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A74DABE218FC25D004FD4BD /* LaunchScreen.storyboard in Resources */,
+				1A74DABB218FC25D004FD4BD /* Assets.xcassets in Resources */,
+				1A74DAB9218FC25C004FD4BD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A74DAC0218FC25D004FD4BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A74DACB218FC25E004FD4BD /* Assets.xcassets in Resources */,
+				1A74DAC9218FC25D004FD4BD /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A74DACF218FC25E004FD4BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A74DADF218FC25F004FD4BD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A74DAAC218FC25C004FD4BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A74DAB6218FC25C004FD4BD /* ViewController.swift in Sources */,
+				1A74DAB4218FC25C004FD4BD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A74DACD218FC25E004FD4BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A74DADB218FC25E004FD4BD /* NotificationController.swift in Sources */,
+				1A74DADD218FC25E004FD4BD /* ComplicationController.swift in Sources */,
+				1A74DAD9218FC25E004FD4BD /* ExtensionDelegate.swift in Sources */,
+				1A74DAD7218FC25E004FD4BD /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1A74DAC5218FC25D004FD4BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A74DAC1218FC25D004FD4BD /* MusicDecorator WatchKit App */;
+			targetProxy = 1A74DAC4218FC25D004FD4BD /* PBXContainerItemProxy */;
+		};
+		1A74DAD4218FC25E004FD4BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A74DAD0218FC25E004FD4BD /* MusicDecorator WatchKit Extension */;
+			targetProxy = 1A74DAD3218FC25E004FD4BD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1A74DAB7218FC25C004FD4BD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A74DAB8218FC25C004FD4BD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1A74DABC218FC25D004FD4BD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A74DABD218FC25D004FD4BD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		1A74DAC7218FC25D004FD4BD /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A74DAC8218FC25D004FD4BD /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1A74DAE2218FC25F004FD4BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1A74DAE3218FC25F004FD4BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1A74DAE5218FC25F004FD4BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H5762RAVC8;
+				INFOPLIST_FILE = "MusicDecorator WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alcides.MusicDecorator.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.1;
+			};
+			name = Debug;
+		};
+		1A74DAE6218FC25F004FD4BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H5762RAVC8;
+				INFOPLIST_FILE = "MusicDecorator WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alcides.MusicDecorator.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.1;
+			};
+			name = Release;
+		};
+		1A74DAE9218FC25F004FD4BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H5762RAVC8;
+				IBSC_MODULE = MusicDecorator_WatchKit_Extension;
+				INFOPLIST_FILE = "MusicDecorator WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alcides.MusicDecorator.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.1;
+			};
+			name = Debug;
+		};
+		1A74DAEA218FC25F004FD4BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H5762RAVC8;
+				IBSC_MODULE = MusicDecorator_WatchKit_Extension;
+				INFOPLIST_FILE = "MusicDecorator WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alcides.MusicDecorator.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.1;
+			};
+			name = Release;
+		};
+		1A74DAED218FC25F004FD4BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H5762RAVC8;
+				INFOPLIST_FILE = MusicDecorator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alcides.MusicDecorator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1A74DAEE218FC25F004FD4BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H5762RAVC8;
+				INFOPLIST_FILE = MusicDecorator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alcides.MusicDecorator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A74DAAB218FC25C004FD4BD /* Build configuration list for PBXProject "MusicDecorator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A74DAE2218FC25F004FD4BD /* Debug */,
+				1A74DAE3218FC25F004FD4BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A74DAE4218FC25F004FD4BD /* Build configuration list for PBXNativeTarget "MusicDecorator WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A74DAE5218FC25F004FD4BD /* Debug */,
+				1A74DAE6218FC25F004FD4BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A74DAE8218FC25F004FD4BD /* Build configuration list for PBXNativeTarget "MusicDecorator WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A74DAE9218FC25F004FD4BD /* Debug */,
+				1A74DAEA218FC25F004FD4BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A74DAEC218FC25F004FD4BD /* Build configuration list for PBXNativeTarget "MusicDecorator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A74DAED218FC25F004FD4BD /* Debug */,
+				1A74DAEE218FC25F004FD4BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1A74DAA8218FC25B004FD4BD /* Project object */;
+}
