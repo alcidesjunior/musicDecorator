@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1A74DAB4218FC25C004FD4BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A74DAB3218FC25C004FD4BD /* AppDelegate.swift */; };
-		1A74DAB6218FC25C004FD4BD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A74DAB5218FC25C004FD4BD /* ViewController.swift */; };
+		1A74DAB6218FC25C004FD4BD /* PlaygroundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A74DAB5218FC25C004FD4BD /* PlaygroundViewController.swift */; };
 		1A74DAB9218FC25C004FD4BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A74DAB7218FC25C004FD4BD /* Main.storyboard */; };
 		1A74DABB218FC25D004FD4BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A74DABA218FC25D004FD4BD /* Assets.xcassets */; };
 		1A74DABE218FC25D004FD4BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A74DABC218FC25D004FD4BD /* LaunchScreen.storyboard */; };
@@ -21,6 +21,12 @@
 		1A74DADB218FC25E004FD4BD /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A74DADA218FC25E004FD4BD /* NotificationController.swift */; };
 		1A74DADD218FC25E004FD4BD /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A74DADC218FC25E004FD4BD /* ComplicationController.swift */; };
 		1A74DADF218FC25F004FD4BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A74DADE218FC25F004FD4BD /* Assets.xcassets */; };
+		1A74DAF1218FC7B0004FD4BD /* ArtistsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A74DAF0218FC7B0004FD4BD /* ArtistsCollectionViewCell.swift */; };
+		1A74DAF3218FD297004FD4BD /* ShowsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A74DAF2218FD297004FD4BD /* ShowsCollectionViewCell.swift */; };
+		1A74DAF6218FD4BB004FD4BD /* StructShow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A74DAF5218FD4BB004FD4BD /* StructShow.swift */; };
+		1A74DAF9218FDAE8004FD4BD /* ExtensionUICOLOR.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A74DAF8218FDAE8004FD4BD /* ExtensionUICOLOR.swift */; };
+		1A74DAFB218FDB1C004FD4BD /* ExtensionCGFLOAT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A74DAFA218FDB1C004FD4BD /* ExtensionCGFLOAT.swift */; };
+		1A74DAFD218FDC4E004FD4BD /* SetListsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A74DAFC218FDC4E004FD4BD /* SetListsCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,7 +74,7 @@
 /* Begin PBXFileReference section */
 		1A74DAB0218FC25C004FD4BD /* MusicDecorator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicDecorator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A74DAB3218FC25C004FD4BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1A74DAB5218FC25C004FD4BD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1A74DAB5218FC25C004FD4BD /* PlaygroundViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaygroundViewController.swift; sourceTree = "<group>"; };
 		1A74DAB8218FC25C004FD4BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1A74DABA218FC25D004FD4BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1A74DABD218FC25D004FD4BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -85,6 +91,12 @@
 		1A74DADE218FC25F004FD4BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1A74DAE0218FC25F004FD4BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1A74DAE1218FC25F004FD4BD /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		1A74DAF0218FC7B0004FD4BD /* ArtistsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistsCollectionViewCell.swift; sourceTree = "<group>"; };
+		1A74DAF2218FD297004FD4BD /* ShowsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowsCollectionViewCell.swift; sourceTree = "<group>"; };
+		1A74DAF5218FD4BB004FD4BD /* StructShow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructShow.swift; sourceTree = "<group>"; };
+		1A74DAF8218FDAE8004FD4BD /* ExtensionUICOLOR.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionUICOLOR.swift; sourceTree = "<group>"; };
+		1A74DAFA218FDB1C004FD4BD /* ExtensionCGFLOAT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionCGFLOAT.swift; sourceTree = "<group>"; };
+		1A74DAFC218FDC4E004FD4BD /* SetListsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetListsCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,8 +140,11 @@
 		1A74DAB2218FC25C004FD4BD /* MusicDecorator */ = {
 			isa = PBXGroup;
 			children = (
+				1A74DAF7218FDACE004FD4BD /* Extensions */,
+				1A74DAF4218FD4A5004FD4BD /* Structs */,
+				1A74DAEF218FC778004FD4BD /* CollectionsCell */,
 				1A74DAB3218FC25C004FD4BD /* AppDelegate.swift */,
-				1A74DAB5218FC25C004FD4BD /* ViewController.swift */,
+				1A74DAB5218FC25C004FD4BD /* PlaygroundViewController.swift */,
 				1A74DAB7218FC25C004FD4BD /* Main.storyboard */,
 				1A74DABA218FC25D004FD4BD /* Assets.xcassets */,
 				1A74DABC218FC25D004FD4BD /* LaunchScreen.storyboard */,
@@ -160,6 +175,33 @@
 				1A74DAE1218FC25F004FD4BD /* PushNotificationPayload.apns */,
 			);
 			path = "MusicDecorator WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		1A74DAEF218FC778004FD4BD /* CollectionsCell */ = {
+			isa = PBXGroup;
+			children = (
+				1A74DAF0218FC7B0004FD4BD /* ArtistsCollectionViewCell.swift */,
+				1A74DAF2218FD297004FD4BD /* ShowsCollectionViewCell.swift */,
+				1A74DAFC218FDC4E004FD4BD /* SetListsCollectionViewCell.swift */,
+			);
+			path = CollectionsCell;
+			sourceTree = "<group>";
+		};
+		1A74DAF4218FD4A5004FD4BD /* Structs */ = {
+			isa = PBXGroup;
+			children = (
+				1A74DAF5218FD4BB004FD4BD /* StructShow.swift */,
+			);
+			path = Structs;
+			sourceTree = "<group>";
+		};
+		1A74DAF7218FDACE004FD4BD /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1A74DAF8218FDAE8004FD4BD /* ExtensionUICOLOR.swift */,
+				1A74DAFA218FDB1C004FD4BD /* ExtensionCGFLOAT.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -294,8 +336,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A74DAB6218FC25C004FD4BD /* ViewController.swift in Sources */,
+				1A74DAB6218FC25C004FD4BD /* PlaygroundViewController.swift in Sources */,
+				1A74DAF1218FC7B0004FD4BD /* ArtistsCollectionViewCell.swift in Sources */,
+				1A74DAFD218FDC4E004FD4BD /* SetListsCollectionViewCell.swift in Sources */,
+				1A74DAFB218FDB1C004FD4BD /* ExtensionCGFLOAT.swift in Sources */,
 				1A74DAB4218FC25C004FD4BD /* AppDelegate.swift in Sources */,
+				1A74DAF9218FDAE8004FD4BD /* ExtensionUICOLOR.swift in Sources */,
+				1A74DAF6218FD4BB004FD4BD /* StructShow.swift in Sources */,
+				1A74DAF3218FD297004FD4BD /* ShowsCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
